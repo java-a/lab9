@@ -58,15 +58,15 @@ In an n-sided regular polygon all sides have the same length and all angles have
         	...
       }
 
-      private static boolean testWithNoArg() {
+      private static void testWithNoArg() {
           ...
       }
 
-      private static boolean testWithNumberAndLength() {
+      private static void testWithNumberAndLength() {
           ...
       }
 
-      private static boolean testWithNumberLengthAndCoordinates() {
+      private static void testWithNumberLengthAndCoordinates() {
           ...
       }
   }
