@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" build-on-make="true" name="JungleChess:jar">
-    <output-path>$PROJECT_DIR$/out/artifacts/JungleChess_jar</output-path>
-    <root id="archive" name="JungleChess.jar">
-      <element id="module-output" name="JungleChess" />
-    </root>
-  </artifact>
-</component>

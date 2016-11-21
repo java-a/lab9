@@ -1,7 +1,21 @@
 # lab9
 ## Project 1 Review
 
+There are three sample project 1 implementations in the repository of this lab. 
 
+Choose **one project** and write a code review with the following requirements:
+
+1. Read the project carefully and understand the code.
+2. Briefly describe the functions of at least 3 key variables and 3 key methods in the project, like what you wrote in your project document.
+3. Explain how the project implements undo and redo.
+4. Explain how the project implements the winning case that one player will lose if all its animals can't move.
+5. Demonstrate how can you improve your code by reading the sample code.
+
+The code written by `李向民` is similar to most students' code, with one class and several methods. It's recommended to review his code if you have some problems with undo, redo and the last winning case. 
+
+The code written by `邱轶扬` has one more class: `Animal`. This is the first step to write the project in object-oriented way. His code is a little bit hard to understand. It's recommended to review his code if you got a 95+ score in PJ1.
+
+The code written by `李逢双` is highly object-oriented. You can review TA's code if you want to challenge yourself. 
 
 ## Geometry: n-sided regular polygon
 
