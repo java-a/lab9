@@ -39,9 +39,7 @@ public class GameController {
             } else {
                 System.out.print("右方玩家行动: ");
             }
-
-            System.out.println(input);
-            commands.add(input);
+            String input = scanner.nextLine();
             Matcher matcher = animalMovePattern.matcher(input);
             if (input.equals("exit")) {
                 break;
