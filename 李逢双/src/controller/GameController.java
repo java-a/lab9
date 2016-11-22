@@ -76,7 +76,13 @@ public class GameController {
                 try {
 
                     Animal animal = Board.getInstance().getAnimal(turn, power);
+
+                    /**
+                     * act是核心的动物移动/攻击方法，第二个参数表示动物是否真的要动，在无子可动的检查中，第二个参数是true
+                     * act方法的定义在Animal类中，具体实现在AnimalCanJumpRiver, AnimalCanSwim 和 AnimalWithoutSkill 类中。
+                     */
                     animal.act(direction, false);
+
                     nextTurn();
                     Board.getInstance().printBoard();
 

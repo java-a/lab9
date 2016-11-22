@@ -7,6 +7,7 @@ import exception.CannotUndoException;
 
 /**
  * Created by lifengshuang on 9/26/16.
+ * 这个类是历史数据类，通过记录每步之间的差异来实现悔棋和取消悔棋，使用的是链表的数据结构。
  */
 public class GameHistory {
 
